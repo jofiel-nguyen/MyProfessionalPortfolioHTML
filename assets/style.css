@@ -1,0 +1,116 @@
+/* Global styles */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: gray
+}
+
+a {
+  text-decoration: none;
+  color: #222;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+.page-title {
+  font-size: 2.5rem;
+  margin: 1.5rem;
+  text-align: center;
+  color: purple;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.card-column {
+  margin: 1rem;
+  width: 300px;
+  background-color:gray;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  border-style: dashed;
+  border-color: white;
+}
+
+.card:hover {
+  cursor: pointer;
+}
+
+.card-header {
+  background-color: gray;
+  border-radius: 8px 8px 8px 8px;
+  margin: 0;
+  padding: 0.5rem;
+  text-align: left;
+  color: purple;
+  font-size: 20px;
+  border-style: solid;
+  border-color: white;
+  position: relative;
+  top: -40px;
+}
+
+.card-body{
+  color: purple;
+
+}
+
+.code-block {
+  background-color: purple;
+  background-image: linear-gradient(gray,purple);
+  border-radius: 8px 8px 8px 8px;
+  margin: 0;
+  padding: 1rem;
+  
+}
+
+/* Code block styles */
+pre {
+  white-space: pre-wrap;
+  font-family: monospace;
+  font-size: 14px;
+  line-height: 1.2;
+  color: white;
+  
+}
+
+pre code {
+  display: block;
+  padding: 0.5rem;
+}
+
+pre code span {
+  color: #008080;
+}
+
+/* Footer styles */
+footer {
+  background-color: gray;
+  padding: 1rem;
+  text-align:center;
+  position:relative;
+  bottom: 0;
+  width: 100%;
+  color: purple;
+}
