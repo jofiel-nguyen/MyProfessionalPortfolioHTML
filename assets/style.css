@@ -30,6 +30,22 @@ h6 {
   text-align: center;
   color: purple;
 }
+.navigation ul {
+  display: flex;
+  list-style: none;
+  
+}
+
+.navigation li {
+
+  padding-right: 10px;
+  margin-right: 20px;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: #333;
+}
 
 .row {
   display: flex;
