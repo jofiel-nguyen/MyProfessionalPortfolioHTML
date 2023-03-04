@@ -50,3 +50,19 @@ nav a:hover {
   background-color: #fff;
   color: #333;
 }
+
+section h2 {
+  text-align: center;
+}
+
+/* Media queries for responsive web design */
+@media screen and (min-width: 576px ){
+  section h2 {
+    text-align: start;
+  }
+  
+  footer {
+      background-color: pink;
+      text-align: center;
+  }
+}
