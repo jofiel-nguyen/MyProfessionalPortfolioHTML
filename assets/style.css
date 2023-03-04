@@ -13,6 +13,19 @@ nav {
   display: flex;
   justify-content: flex-end;
 }
+.nav-list {
+  list-style-type: none; 
+}
+
+.nav-list li {
+  position: relative; 
+}
+
+.nav-list li:before {
+  content: "\2022"; 
+  position: absolute; 
+  left: -1.5em; 
+}
 
 nav ul {
   list-style: none;
