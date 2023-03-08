@@ -1,32 +1,24 @@
 # MyProfessional-Portfolio
 # 02 Advanced CSS: Portfolio
 ## User Story
+```This is my deployed link: 
+https://nhunguyen-debug.github.io/MyProfessional-Portfolio/
+```
+![My information about my name, experience and every thing](./assets/images/deployedimage.png)
+
 
 ```
-AS AN employer
-I WANT to view a potential employee's deployed portfolio of work samples
-SO THAT I can review samples of their work and assess whether they're a good candidate for an open position
-```
+Welcome to my portfolio! My name is Thi Tu Nhu Nguyen, but you can call me "Wren." Thank you for taking the time to visit my website.
 
+I have a diverse range of experience and education, starting with over three years of working as a pharmacy technician at CVS Pharmacy. During this time, I developed strong organizational and communication skills, as well as a keen attention to detail.
 
-## Acceptance Criteria
+In addition to my work in the pharmacy industry, I also have a background in research science. I worked at the Vietnam Academy of Science and Technology, where I learned valuable skills such as data analysis and research methodology.
 
-Here are the critical requirements necessary to develop a portfolio that satisfies a typical hiring manager’s needs:
+To further expand my skill set, I pursued additional education in information technology. I completed a full-stack developer boot camp at Rice University and also took the highly-regarded CS50 course offered by Harvard University. Through these programs, I gained proficiency in programming languages such as Java, Python, and JavaScript, as well as in front-end and back-end web development.
 
-```
-GIVEN I need to sample a potential employee's previous work
-WHEN I load their portfolio
-THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
-WHEN I click one of the links in the navigation
-THEN the UI scrolls to the corresponding section
-WHEN I click on the link to the section about their work
-THEN the UI scrolls to a section with titled images of the developer's applications
-WHEN I am presented with the developer's first application
-THEN that application's image should be larger in size than the others
-WHEN I click on the images of the applications
-THEN I am taken to that deployed application
-WHEN I resize the page or view the site on various screens and devices
-THEN I am presented with a responsive layout that adapts to my viewport
+I hold an associate of science degree from Lonestar College with a GPA of 3.7. Additionally, I was recognized for my achievements with graduation honors in pharmacy technician from Ashworth College, where I also earned certification in the field.
+
+Overall, I am a highly skilled and passionate professional who is ready to take on new challenges and achieve great things. Thank you for considering me for any opportunities that may arise.
 ```
 ## Final Saying
 ```
