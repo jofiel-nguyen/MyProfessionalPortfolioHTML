@@ -8,7 +8,8 @@ https://nhunguyen-debug.github.io/MyProfessional-Portfolio/
 
 
 ```
-Welcome to my portfolio! My name is Thi Tu Nhu Nguyen, but you can call me "Wren." Thank you for taking the time to visit my website.
+Welcome to My Portfolio! 
+My name is Thi Tu Nhu Nguyen, but you can call me "Wren." Thank you for taking the time to visit my website.
 
 I have a diverse range of experience and education, starting with over three years of working as a pharmacy technician at CVS Pharmacy. During this time, I developed strong organizational and communication skills, as well as a keen attention to detail.
 
