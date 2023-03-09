@@ -16,7 +16,7 @@
 			<li><a href="#about-me">About Me</a></li>
 			<li><a href="#my-work">My Work</a></li>
 			<li><a href="#contact-me">Contact Me</a></li>
-      <li><a href="#resume">Resume</a></li>
+      		<li><a href="#resume">Resume</a></li>
 		</ul>
 	</nav>
 
@@ -29,6 +29,8 @@
 			  </a>
 			<p> <em>Coding, gaming, and creating have always been my passions. There's something magical about the creative process that drives me to spend countless hours tinkering with code, exploring new game mechanics, and crafting unique works of art.</em></p> 
 	  
+		</section> <!-- add closing tag for section -->
+
 		<section id="my-work">
 			<h2>My Work</h2>
 			<ul>
@@ -38,6 +40,7 @@
 						<img src="./assets/images/project1.png" alt="Ping Pong Game" width="300" height="200">
 					  </a>
 					<p><em> Ping pong game that takes place in a galaxy environment.</em></p>
+				</li>
 				<li>
 					<h3>My Landing Page</h3>
 					<a href="mylandingpage.html" target="_blank">
@@ -54,14 +57,15 @@
 				</li>
 			</ul>
 		</section>
-		<section id ="resume">
+		
+		<section id="resume">
 			<h2>Resume</h2>
-				<p>Click the link below to download my resume if you concern</p>
-    			<a href="resume/resume.pdf" download>Download File</a>
-		</section>
+			<button><a href="resume.html" target="_blank">Download Resume</a></button>
+		</section>		
+		
 		<section id="contact-me">
 			<h2>Contact Me</h2>
-			<form action="mailto:zennguyen2511@gmail.com" method="post" enctype="text/plain">
+			<form>
 				<label for="name">Name:</label>
 				<input type="text" id="name" name="name" required><br>
 		
@@ -70,15 +74,13 @@
 		
 				<label for="message">Message:</label>
 				<textarea id="message" name="message" required></textarea><br>
-		
+
 				<input type="submit" value="Send">
 			</form>
 		</section>
-		
 	</main>
 
 	<footer>
 		<p>&copy; 2023 Wren's Portfolio</p>
 	</footer>
 </body>
-</html>
