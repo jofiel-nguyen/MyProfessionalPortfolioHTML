@@ -4,7 +4,7 @@
 ```This is my deployed link: 
 https://nhunguyen-debug.github.io/MyProfessional-Portfolio/
 ```
-![My information about my name, experience and every thing](./assets/images/deployedimage.png)
+![My information about my name, experience and every thing](./assets/images/deploy.png)
 
 
 ```
