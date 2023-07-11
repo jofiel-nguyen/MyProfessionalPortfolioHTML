@@ -121,6 +121,30 @@ section p em {
       align-items: flex-start;
   }
 }
+#my-work ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0;
+}
+
+#my-work li {
+  width: 48%;
+  margin-bottom: 30px;
+}
+
+#my-work li img {
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto 10px;
+}
+
+@media (max-width: 768px) {
+  #my-work li {
+      width: 100%;
+  }
+}
 
 /* Footer Styles */
 footer {
