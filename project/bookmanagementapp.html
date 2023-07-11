@@ -6,25 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Book Management System Group 3</title>
     <link rel="stylesheet" type="text/css" href="./style.css">
-    <style>
-        body {
-            background-color: #f2f2f2;
-            margin: 0;
-            padding: 0;
-            text-align: left;
-        }
-
-        nav ul {
-            text-align: left;
-        }
-    </style>
 </head>
 <body>
     <header>
         <h1>Book Management System Group 3</h1>
     </header>
 
-    <section>
+    <section id="description">
         <h2>Description</h2>
         <p>Book Management System allows users to keep track of their personal book collection. The application provides a user-friendly interface for managing books, including adding new books, updating book details, and viewing the book collection.</p>
     </section>
@@ -47,17 +35,7 @@
         <section id="taskscompleted">
             <h2>Tasks Completed</h2>
             <ul>
-                <li>Set up the folder structure using the MVC framework
-                    <ul>
-                        <li>Set up Sequelize connection to the database</li>
-                        <li>Create models for the application</li>
-                        <li>Set up controller files to handle different routes</li>
-                        <li>Create routes to handle different routes and map them to appropriate controllers</li>
-                        <li>Set up Handlebars templates to render HTML views for the application</li>
-                        <li>Set up client-side functionality</li>
-                        <li>Set up the Express application, configure the necessary middleware, and define the routes using the controllers and routes</li>
-                    </ul>
-                </li>
+                <li>Set up the folder structure using the MVC framework</li>
                 <li>Obtained Google Books API key to fetch book data</li>
                 <li>Implemented book search functionality</li>
             </ul>
@@ -66,14 +44,16 @@
         <section id="usage">
             <h2>Usage</h2>
             <p>Link to deployed website: <a href="https://bookmanagement.herokuapp.com/">https://bookmanagement.herokuapp.com/</a></p>
-            <figure>
-                <img src="../assets/images/booktrackr-homepg-screenshot.png" width="300" height="200" alt="Book Trackr Home Page">
-                <figcaption>Book Trackr Home Page</figcaption>
-            </figure>
-            <figure>
-                <img src="../assets/images/booktrackr-screenshot.png" width="300" height="200" alt="Book Trackr Search Results">
-                <figcaption>Book Trackr Search Results</figcaption>
-            </figure>
+            <div class="image-container">
+                <figure>
+                    <img src="../assets/images/booktrackr-homepg-screenshot.png" alt="Book Trackr Home Page">
+                    <figcaption>Book Trackr Home Page</figcaption>
+                </figure>
+                <figure>
+                    <img src="../assets/images/booktrackr-screenshot.png" alt="Book Trackr Search Results">
+                    <figcaption>Book Trackr Search Results</figcaption>
+                </figure>
+            </div>
         </section>
 
         <section id="tools">
@@ -128,5 +108,4 @@
     <footer>
         <p>&copy; 2023 Wren's Portfolio</p>
     </footer>
-</body>
-</html>
+</body
