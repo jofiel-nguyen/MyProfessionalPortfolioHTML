@@ -27,7 +27,7 @@ I hold an associate of science degree from Lonestar College, where I maintained 
 ![My deployed](./assets/images/deploy.png)
 
 ## Contact Information
-- **Website:** [My Portfolio](https://nhunguyen-debug.github.io/MyProfessional-Portfolio/)
+- **Website:** [My Portfolio](https://nhunguyen-debug.github.io/MyProfessionalPortfolioHTML/)
 - **Email:** [thitunguyen@my.lonestar.edu](mailto:thitunguyen@my.lonestar.edu)
 
 ## Final Words
